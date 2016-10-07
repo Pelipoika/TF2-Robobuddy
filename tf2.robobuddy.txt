@@ -1,0 +1,54 @@
+"Games"
+{
+	/* Team Fortress 2 */
+	"tf"
+	{
+		"Signatures"
+		{
+			"CTFRobotDestruction_Robot::SetNewActivity"
+			{
+				"library"	"server"
+				"windows"	"\x55\x8B\xEC\x57\xFF\x75\x08\x8B\xF9\xE8\x2A\x2A\x2A\x2A\x85\xC0"
+			}
+		}
+		"Offsets"
+		{
+			"CBaseCombatCharacter::MyNextBotPointer"
+			{
+				"windows"	"72"
+				"linux"		"73"
+				"mac"		"73"
+			}
+			"CRobotLocomotion::GetRunSpeed"
+			{
+				"windows"	"82"
+				"linux"		"83"
+				"mac"		"83"
+			}
+			"CRobotLocomotion::GetGroundSpeed"
+			{
+				"windows"	"66"
+				"linux"		"67"
+				"mac"		"67"
+			}
+			"CTFRobotDestruction_Robot::GetLocomotionInterface"
+			{
+				"windows"	"48"
+				"linux"		"49"
+				"mac"		"49"
+			}
+			"NextBotGroundLocomotion::GetMaxAcceleration"
+			{
+				"windows"	"84"
+				"linux"		"85"
+				"mac"		"85"
+			}
+			"CBaseObject::InputWrenchHit"
+			{
+				"windows"	"354"
+				"linux"		"355"
+				"mac"		"355"
+			}
+		}
+	}
+}
