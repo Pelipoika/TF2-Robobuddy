@@ -9,6 +9,7 @@
 			{
 				"library"	"server"
 				"windows"	"\x55\x8B\xEC\x57\xFF\x75\x08\x8B\xF9\xE8\x2A\x2A\x2A\x2A\x85\xC0"
+				"linux"		"@_ZN25CTFRobotDestruction_Robot14SetNewActivityE8Activity"
 			}
 		}
 		"Offsets"
