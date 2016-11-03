@@ -9,7 +9,16 @@
 			{
 				"library"	"server"
 				"windows"	"\x55\x8B\xEC\x57\xFF\x75\x08\x8B\xF9\xE8\x2A\x2A\x2A\x2A\x85\xC0"
-				"linux"		"@_ZN25CTFRobotDestruction_Robot14SetNewActivityE8Activity"
+			}
+			"CBaseAnimating::LookupActivity"	//New sig pls
+			{
+				"library"	"server"
+				"windows"	"\x55\x8B\xEC\x56\x2A\xF1\x80\xBE\x41\x03\x2A\x2A\x00\x75\x28\x83\xBE\x68\x04\x2A\x00\x2A\x75\x10\xE8\x2A\x25\x02"
+			}
+			"CBaseAnimating::LookupSequence"	//New sig pls
+			{
+				"library"	"server"
+				"windows"	"\x55\x8B\xEC\x56\x8B\xF1\x2A\xBE\x41\x03\x2A\x2A\x00\x75\x28\x83\x2A\x68\x04\x00\x2A\x2A\x75\x10\xE8\x13\x22\x02\x00\x2A\xC0\x74"
 			}
 		}
 		"Offsets"
@@ -18,37 +27,46 @@
 			{
 				"windows"	"72"
 				"linux"		"73"
-				"mac"		"73"
 			}
 			"CRobotLocomotion::GetRunSpeed"
 			{
 				"windows"	"82"
 				"linux"		"83"
-				"mac"		"83"
 			}
 			"CRobotLocomotion::GetGroundSpeed"
 			{
 				"windows"	"66"
 				"linux"		"67"
-				"mac"		"67"
+			}
+			"CRobotLocomotion::GetMaxJumpHeight"
+			{
+				"windows"	"80"
+				"linux"		"81"
 			}
 			"CTFRobotDestruction_Robot::GetLocomotionInterface"
 			{
 				"windows"	"48"
 				"linux"		"49"
-				"mac"		"49"
 			}
 			"NextBotGroundLocomotion::GetMaxAcceleration"
 			{
 				"windows"	"84"
 				"linux"		"85"
-				"mac"		"85"
+			}
+			"NextBotGroundLocomotion::Jump"
+			{
+				"windows"	"50"
+				"linux"		"51"
+			}
+			"NextBotGroundLocomotion::FaceTowards"
+			{
+				"windows"	"73"
+				"linux"		"74"
 			}
 			"CBaseObject::InputWrenchHit"
 			{
-				"windows"	"354"
-				"linux"		"355"
-				"mac"		"355"
+				"windows"	"355"
+				"linux"		"357"
 			}
 		}
 	}
