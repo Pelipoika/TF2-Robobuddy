@@ -1015,7 +1015,7 @@ stock void Annotate(int entity, int client, char[] strMsg)
 		event.SetFloat("lifetime", 3.0);
 		event.SetInt("id", entity + 8750);
 		event.SetString("text", strMsg);
-		event.SetString("play_sound", "vo/null.wav");
+		event.SetString("play_sound", "misc/null.wav");
 		event.SetString("show_effect", "0");
 		event.SetString("show_distance", "1");
 		event.SetInt("visibilityBitfield", 1 << client);
